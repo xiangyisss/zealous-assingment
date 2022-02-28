@@ -6,7 +6,8 @@
     "node": ">=16.13.0"
   },
   "scripts": {
-    "build": "yarn workspaces foreach -vpiR run build",
+    "build": "yarn workspaces foreach run build",
+    "build:ui": "yarn workspace @zealous/ui build",
     "start:web": "yarn workspace @zealous/web start",
     "start:ui": "yarn workspace @zealous/ui start"
   },
