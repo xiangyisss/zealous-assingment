@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { ThemeProvider } from '@zealous/ui'
+
 import App from './App'
 import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 import reportWebVitals from './reportWebVitals'
-import { ThemeProvider } from '@zealous/ui'
 
 ReactDOM.render(
   <React.StrictMode>
