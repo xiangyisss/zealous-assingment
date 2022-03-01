@@ -15,6 +15,7 @@ export default {
 } as Meta
 
 export const Default: StoryType = {
+  name: 'Panel',
   args: {
     title: 'default'
   }

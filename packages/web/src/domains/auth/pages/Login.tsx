@@ -9,10 +9,6 @@ const Layout = styled.div`
   height: 100%;
   width: 100%;
   background-color: #f4f4f4;
-
-  ${Panel} {
-    width: 400px;
-  }
 `
 
 export function LoginPage () {
