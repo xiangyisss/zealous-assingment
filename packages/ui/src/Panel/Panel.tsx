@@ -20,7 +20,6 @@ const PanelWrapper = styled.div`
   border: 1px solid ${themePalette('neutral', 300)};
   min-height: 100px;
   padding: ${themeSpacing('base')};
-  /* width: 400px; */
 `
 
 const PanelTitle = styled.h3`
