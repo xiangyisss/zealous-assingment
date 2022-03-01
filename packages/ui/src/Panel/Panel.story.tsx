@@ -1,5 +1,5 @@
 import { Story, Meta, StoryObj } from '@storybook/react'
-
+import { Input } from '../Input'
 import { Panel, PanelProps } from './Panel'
 
 type StoryType = StoryObj<PanelProps>

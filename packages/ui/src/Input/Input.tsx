@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { themePalette, themeSpacing, themeBorderRadius } from '../Theme/themeAccessor'
 
 export interface InputProps {
-  value: string
+  value?: string
   onChange?: (value: string, e: ChangeEvent<HTMLInputElement>) => void
 }
 
