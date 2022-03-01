@@ -35,3 +35,14 @@ We organise our code by domains:
         * auth
 
 ## Assignment
+
+After you start the web project you will see a panel with an input in the browser.
+This is the start of a login screen that we are developing.
+
+We would like you to add the following functionality:
+
+- The input needs to accept an email
+- If the user provides an value that does not conform with an email pattern
+  then we want to show a message directly underneath the input informing him what is expected.
+
+It is important that you conform to the standards that you come across in this repository.
