@@ -31,7 +31,7 @@ export const Default: StoryType = {
 }
 
 export const Controlled: StoryType = {
-  name: 'Text',
+  name: 'Controlled',
   args: {
     value: ''
   },
