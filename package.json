@@ -9,7 +9,8 @@
     "build": "yarn workspaces foreach run build",
     "build:ui": "yarn workspace @zealous/ui build",
     "start:web": "yarn workspace @zealous/web start",
-    "start:ui": "yarn workspace @zealous/ui start"
+    "start:ui": "yarn workspace @zealous/ui start",
+    "test:ui": "yarn workspace @zealous/ui test"
   },
   "devDependencies": {
     "cross-env": "7.0.3",
