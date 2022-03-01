@@ -4699,7 +4699,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:>=16.9.0":
+"@types/react@npm:*, @types/react@npm:17.0.39, @types/react@npm:>=16.9.0":
   version: 17.0.39
   resolution: "@types/react@npm:17.0.39"
   dependencies:
@@ -4710,7 +4710,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:16.14.23, @types/react@npm:^16":
+"@types/react@npm:^16":
   version: 16.14.23
   resolution: "@types/react@npm:16.14.23"
   dependencies:
@@ -5420,7 +5420,7 @@ __metadata:
     "@testing-library/react": 11.2.7
     "@testing-library/user-event": 12.8.3
     "@types/node": 12.20.46
-    "@types/react": 16.14.23
+    "@types/react": 17.0.39
     "@types/react-dom": 16.9.14
     "@types/styled-components": 5.1.7
     "@zealous/ui": 0.0.1
