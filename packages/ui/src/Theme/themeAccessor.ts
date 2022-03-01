@@ -1,19 +1,11 @@
-import { defaultTheme } from './theme';
+import { defaultTheme } from './theme'
 
 type ColorValue = 100 | 300 | 500 | 700 | 900
 
-interface StyledProps {
-  theme?: typeof defaultTheme
-}
-
 type ThemeResolver<T = any> = (theme: typeof defaultTheme) => T
 
-const fromTheme = <T>(themeResolver: ThemeResolver<T>) => (props: StyledProps) => (
-  themeResolver(
-    props.theme
-    ? props.theme as typeof defaultTheme
-    : defaultTheme
-  )
+const fromTheme = <T>(themeResolver: ThemeResolver<T>) => () => (
+  themeResolver(defaultTheme)
 )
 
 export const themePalette = (color: keyof typeof defaultTheme['palette'], value: ColorValue = 500) => (

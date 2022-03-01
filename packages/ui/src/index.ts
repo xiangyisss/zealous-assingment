@@ -1,3 +1,3 @@
-export { Input } from './Input'
-export { Panel } from './Panel'
+export * from './Input'
+export * from './Panel'
 export * from './Theme'
