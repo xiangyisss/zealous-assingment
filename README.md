@@ -9,7 +9,9 @@ In the packages folder you find the following projects:
 
 ## Commands
 
-run `yarn install` from the root of the project to install the dependencies for all of the projects.
+### `yarn install`
+
+run from the root to install the dependencies for all of the projects.
 
 ### `yarn build:ui`
 
