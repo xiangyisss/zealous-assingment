@@ -3456,15 +3456,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/jest@npm:0.0.9":
-  version: 0.0.9
-  resolution: "@storybook/jest@npm:0.0.9"
+"@storybook/jest@npm:0.0.10":
+  version: 0.0.10
+  resolution: "@storybook/jest@npm:0.0.10"
   dependencies:
     "@storybook/expect": storybook-jest
     "@storybook/instrumenter": ^6.4.0
     "@testing-library/jest-dom": ^5.16.2
     jest-mock: ^27.3.0
-  checksum: 6e64fefcd33eed2f11ca36fa76dfbe519ce52879483d46f74a2c8e925826464785a893023b967768c70a307a5987fcf4c853e2da50acd18c58602770a1051617
+  checksum: 55427e81dc18fbfd8820e7b5cbf709d436917641808d588890ebc19ad7ffd3bdc5a253e1762e70c0d454930b8b7143b71f74bd7aa9c2c4a8a35ed70099a2825d
   languageName: node
   linkType: hard
 
@@ -5205,7 +5205,7 @@ __metadata:
     "@storybook/addon-essentials": 6.4.19
     "@storybook/addon-interactions": 6.4.19
     "@storybook/addon-links": 6.4.19
-    "@storybook/jest": 0.0.9
+    "@storybook/jest": 0.0.10
     "@storybook/react": 6.4.19
     "@storybook/testing-library": 0.0.9
     "@storybook/testing-react": 1.2.3
