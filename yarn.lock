@@ -4646,7 +4646,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:17.0.15, @types/react-dom@npm:<18.0.0":
+"@types/react-dom@npm:18.0.1":
+  version: 18.0.1
+  resolution: "@types/react-dom@npm:18.0.1"
+  dependencies:
+    "@types/react": "*"
+  checksum: 6c183e2e50240b77ed767cd968fe061ef4f2b47f84da5ec9e412a767d68c9a004d1f6ccca4295a5aa2c3ee723377e59006a2031f3767c00d8ac9e240a51bb142
+  languageName: node
+  linkType: hard
+
+"@types/react-dom@npm:<18.0.0":
   version: 17.0.15
   resolution: "@types/react-dom@npm:17.0.15"
   dependencies:
@@ -5388,7 +5397,7 @@ __metadata:
     "@testing-library/user-event": 14.1.1
     "@types/node": 16.11.26
     "@types/react": 17.0.44
-    "@types/react-dom": 17.0.15
+    "@types/react-dom": 18.0.1
     "@types/styled-components": 5.1.24
     "@zealous/ui": 0.0.1
     react: 18.0.0
