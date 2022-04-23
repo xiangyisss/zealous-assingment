@@ -11,6 +11,7 @@ const StyledInput = styled.input`
   border-radius: ${themeBorderRadius('base')};
   padding: ${themeSpacing('small')};
   width: 400px;
+  margin-bottom: ${themeSpacing('small')};
 
   :focus {
     outline: none;
@@ -32,8 +33,8 @@ export const Input = ({ onChange, ...props }: InputProps) => {
 
   return (
     <StyledInput
-      data-testid={INPUT_SELECTOR} 
-      {...props} 
+      data-testid={INPUT_SELECTOR}
+      {...props}
       onChange={inputOnChange} />
   )
 }

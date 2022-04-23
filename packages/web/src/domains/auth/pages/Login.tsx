@@ -1,5 +1,8 @@
 import styled from 'styled-components'
-import { Panel, Input } from '@zealous/ui'
+import { Panel, Input, ErrorMessage } from '@zealous/ui'
+import { ChangeEvent } from 'react'
+import { useState } from 'react'
+
 
 const Layout = styled.div`
   display: flex;
@@ -11,10 +14,26 @@ const Layout = styled.div`
 `
 
 export function LoginPage() {
+
+  const [ isValidEmail, setIsValidEmail ] = useState<boolean>(true)
+  const [ inputValue, setInputValue ] = useState<string>('')
+
+  const emailIsValid = ( value : string ) => {
+    setInputValue( value )
+    setIsValidEmail( true )
+  }
+
+  const handleEmailInput = (value: string , e : ChangeEvent<HTMLInputElement>) => {
+    const format = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+    const validEmail = e.target.value.match(format) || e.target.value === ''
+    validEmail ? emailIsValid(e.target.value) : setIsValidEmail(false)
+  }
+
   return (
     <Layout>
       <Panel>
-        <Input placeholder='email' />
+        <Input placeholder='email' onChange={handleEmailInput} />
+        {!isValidEmail && <ErrorMessage message="Please enter a valid email." />}
       </Panel>
     </Layout>
   )
